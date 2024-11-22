@@ -4,7 +4,7 @@ int main()
 int i,n,max,min;
 //printf("enter the number of students");
 //scanf("%d",&n);
-printf("enter 5 the students marks out of 100");
+printf("enter 5 students marks out of 100");
 int m[4];
 for(i=0;i<=4;i++)
 {
