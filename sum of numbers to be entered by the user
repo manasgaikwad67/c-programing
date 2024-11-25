@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int num, sum = 0;
+    printf("Enter numbers to sum (enter only positive numbers and use -1 to stop the program):\n");
+
+    while(num>=0) { // loop indefinitely until broken
+        printf("Enter a number: ");
+        scanf("%d", &num);
+
+        if(num == -1) { // condition to break the loop
+            break;
+        } else {
+            sum += num; // add the input number to the sum
+        }
+    }
+
+    printf("Sum of the entered numbers: %d\n", sum);
+
+    return 0;
+}
