@@ -6,7 +6,7 @@ int i,n,max,min;
 //scanf("%d",&n);
 printf("enter the marks of 5 students out of 100");
 int m[4];
-for(i=0;i<=4;i++)
+for(i=0;i<=5;i++)
 {
 scanf("%d",&m[i]);
 printf("%d");}
@@ -18,7 +18,7 @@ for(i=1;i<=4;i++)
     {
         max=m[i];
     }
-    if(min>=m[1])
+    if(min>=m[i])
     {
         min=m[i];
     }
@@ -26,7 +26,7 @@ for(i=1;i<=4;i++)
 printf("the maximum of the numbers is %d\n",max);
 printf("the minimum of the numbers is %d\n",min);
 
-for(i=1;i<=4;i++)
+for(i=1;i<=5;i++)
 {
     if ( m[i]>=40)
     {
