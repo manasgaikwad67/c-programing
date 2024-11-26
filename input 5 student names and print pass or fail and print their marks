@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-int i,n,max,min,p=0,f=0;
+int i,m,max,min,p=0,f=0;
 //printf("enter the number of students");
 //scanf("%d",&n);
 printf("enter the marks of 5 students out of 100");
