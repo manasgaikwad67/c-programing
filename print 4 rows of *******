@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    int r = 1; 
+    int c;    
+    do {
+        c = 1;  
+
+
+        do {
+            printf("*");
+            c++;
+        } while (c <= 10);  
+        printf("\n"); 
+
+        r++;
+    } while (r <= 4);  
+
+    return 0;
+}
